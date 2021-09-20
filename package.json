@@ -1,0 +1,27 @@
+{
+  "name": "percy_cypress",
+  "version": "1.0.0",
+  "description": "Visual automation using percy + cypress",
+  "main": "index.js",
+  "scripts": {
+    "format": "prettier  --write .",
+    "lint": "eslint '**/*.js' --ignore-pattern node_modules/",
+    "test": "percy exec -- cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.hugeinc.com/HugeInternal/percy_cypress.git"
+  },
+  "keywords": [],
+  "author": "Sergio Martiínez & Luz Gonzalez",
+  "license": "ISC",
+  "devDependencies": {
+    "@percy/cli": "^1.0.0-beta.65",
+    "@percy/cypress": "^3.1.1",
+    "cypress": "^8.4.0",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-cypress": "^2.11.3",
+    "prettier": "^2.3.2"
+  }
+}
