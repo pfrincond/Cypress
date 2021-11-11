@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Percy Cypress
 
 Percy is a framework you can use with cypress to test visual automation.
@@ -29,3 +30,7 @@ If you want get more information about percy, [click here.](https://percy.io/)
    ```sh
    npm install
    ```
+=======
+# Cypress
+Cypress integration with Circle CI
+>>>>>>> 490ac9b48780747cb0d9c012ea4a91aed195b574
